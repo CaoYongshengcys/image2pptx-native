@@ -2,6 +2,11 @@
 
 **将图片/截图/PPT页面截图转换为全矢量可编辑 PPTX** — 纯 `python-pptx` 实现，零外部依赖。
 
+> 📦 **本仓库是 [ai-pptx-generator](https://github.com/CaoYongshengcys/ai-pptx-generator) 生态的一部分。**
+> 如果你需要更通用的 PPT 生成能力（文字→PPT、论文→PPT、数据→PPT），请使用 [ai-pptx-generator](https://github.com/CaoYongshengcys/ai-pptx-generator)。
+> 如果你追求最高质量的图片→PPT 还原，请使用 [image2pptx-artifact](https://github.com/CaoYongshengcys/image2pptx-artifact)（需要 Codex CLI）。
+> 本仓库定位为**离线降级方案**——当 artifact-tool 不可用时自动启用。
+
 <p align="center">
   <img src="examples/tech_flowchart_2/original_inputs/source.png" width="48%" alt="Source Image"/>
   <img src="examples/tech_flowchart_2/diagnostics/render.png" width="48%" alt="Rendered Output"/>
